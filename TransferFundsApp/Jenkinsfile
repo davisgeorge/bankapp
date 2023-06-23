@@ -4,7 +4,7 @@ pipeline {
 		stage('Clean stage') {
 			steps {
 				dir("TransferFundsApp") {
-					bat 'C:\\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\mvn clean'
+					bat 'C:\\apache-maven-3.3.9-bin\\apache-maven-3.3.9\\bin\\mvn clean'
 				}
 			}
 		}
