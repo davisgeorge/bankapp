@@ -11,14 +11,14 @@ pipeline {
 		stage('Compile stage') {
 			steps {
 				dir("TransferFundsApp") {
-					bat 'C:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\mvn compile'
+					bat 'C:\\apache-maven-3.3.9-bin\\apache-maven-3.3.9\\bin\\mvn compile'
 				}
 			}
 		}
 		stage('Install stage') {
 			steps {
 				dir("TransferFundsApp") {
-					bat 'C:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\mvn install'
+					bat 'C:\\apache-maven-3.3.9-bin\\apache-maven-3.3.9\\bin\\mvn install'
 				}
 			}
 		}
